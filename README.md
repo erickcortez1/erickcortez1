@@ -25,11 +25,10 @@
 
 ## Contribuições
 
- Descomente este bloco depois que o workflow gerar o SVG com dados reais. -->
-
-
 <p align="center">
-  <img src="./assets/viking-contributions.svg" alt="Viking animado percorrendo minhas contribuições" width="100%" />
+  <img src="./assets/viking-contributions.svg"
+       alt="Viking animado percorrendo minhas contribuições"
+       width="100%" />
 </p>
 
 ---
