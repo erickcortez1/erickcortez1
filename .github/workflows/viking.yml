@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/generate_viking.py
+      - assets/viking/**
       - tests/test_viking.py
       - .github/workflows/viking.yml
 
