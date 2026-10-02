@@ -5,7 +5,8 @@ import unittest
 import xml.etree.ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from generate_viking import choose_targets, demo_weeks, make_svg, time_anim, geometry, align_weeks
+from generate_viking import (choose_targets, demo_weeks, make_svg, time_anim, geometry,
+                             align_weeks, SPRITE_FILES, SPRITES_DIR, build_frame_schedule)
 
 
 class VikingTests(unittest.TestCase):
@@ -21,6 +22,39 @@ class VikingTests(unittest.TestCase):
         self.assertIn("viking-motion", svg)
         self.assertIn("animateTransform", svg)
         self.assertIn("#26a641", svg)
+
+    def test_all_approved_frames_are_embedded(self):
+        root = ET.fromstring(make_svg(demo_weeks()))
+        ns = '{http://www.w3.org/2000/svg}'
+        frames = [el for el in root.iter(f'{ns}image')]
+        self.assertEqual(len(frames), 12)
+        self.assertEqual({el.attrib['id'] for el in frames},
+                         {f'frame-{name}' for name in SPRITE_FILES})
+        self.assertTrue(all(el.attrib['href'].startswith('data:image/png;base64,')
+                            for el in frames))
+
+    def test_png_frames_have_exact_size_and_transparency(self):
+        for name in SPRITE_FILES:
+            raw = (SPRITES_DIR / f'{name}.png').read_bytes()
+            self.assertEqual(raw[:8], b'\x89PNG\r\n\x1a\n')
+            self.assertEqual((int.from_bytes(raw[16:20], 'big'),
+                              int.from_bytes(raw[20:24], 'big')), (48,48))
+
+    def test_walk_idle_and_attack_frames_appear_in_schedule(self):
+        weeks = demo_weeks()
+        pts, total, hits, _ = geometry(weeks, choose_targets(weeks))
+        timeline = build_frame_schedule(pts, hits, total)
+        self.assertEqual(timeline[0][0], 0)
+        self.assertEqual(timeline[-1][1], total)
+        self.assertEqual({f'attack_{i}' for i in range(1,5)}.issubset(
+            {frame for _,_,frame in timeline}), True)
+        self.assertIn('idle_1', {frame for _,_,frame in timeline})
+        self.assertIn('walk_1', {frame for _,_,frame in timeline})
+        self.assertTrue(all(abs(a[1]-b[0]) < 0.0001 for a,b in zip(timeline,timeline[1:])))
+
+    def test_demo_cannot_be_mistaken_for_actual_calendar(self):
+        self.assertIn('PRÉVIA DEMONSTRATIVA', make_svg(demo_weeks(),demo=True))
+        self.assertNotIn('PRÉVIA DEMONSTRATIVA', make_svg(demo_weeks()))
 
     def test_partial_week_aligns_to_sunday(self):
         monday = {"date": "2026-09-28", "contributionCount": 4, "contributionLevel": "FOURTH_QUARTILE"}
