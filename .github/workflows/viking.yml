@@ -32,10 +32,45 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_viking.py --username erickcortez1 --output assets/viking-contributions.svg
+
       - name: Publicar SVG gerado (somente se houver alteração)
         run: |
-          git add assets/viking-contributions.svg
-          if ! git diff --cached --quiet; then
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: atualizar gráfico viking [skip ci]'
-            git push
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Preserva o SVG antes de atualizar o repositório
+          cp assets/viking-contributions.svg "$RUNNER_TEMP/viking.svg"
+
+          # Tenta publicar até 3 vezes
+          for tentativa in 1 2 3; do
+            echo "Tentativa $tentativa de publicação"
+
+            # Obtém a versão mais recente da main
+            git fetch origin main
+            git checkout -B main FETCH_HEAD --force
+
+            # Recupera o SVG gerado
+            cp "$RUNNER_TEMP/viking.svg" assets/viking-contributions.svg
+
+            git add assets/viking-contributions.svg
+
+            # Verifica se houve alguma alteração
+            if git diff --cached --quiet; then
+              echo "SVG já está atualizado."
+              exit 0
+            fi
+
+            git commit -m "chore: atualizar gráfico viking [skip ci]"
+
+            # Publica sem sobrescrever o histórico remoto
+            if git push origin HEAD:main; then
+              echo "SVG publicado com sucesso."
+              exit 0
+            fi
+
+            echo "Publicação rejeitada. Atualizando e tentando novamente."
+          done
+
+          echo "Falha após 3 tentativas."
+          exit 1
+
