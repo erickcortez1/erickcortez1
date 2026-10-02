@@ -8,6 +8,7 @@ Only Python's standard library is required.
 from __future__ import annotations
 
 import argparse
+import base64
 from datetime import date, timedelta
 from html import escape
 import json
@@ -22,7 +23,7 @@ USERNAME = "erickcortez1"
 CELL = 10
 STEP = 13
 LEFT = 43
-TOP = 46
+TOP = 65
 DARK = "#0d1117"
 EMPTY = "#161b22"
 LEVELS = {
@@ -32,6 +33,12 @@ LEVELS = {
     "THIRD_QUARTILE": "#26a641",
     "FOURTH_QUARTILE": "#39d353",
 }
+SPRITE_FILES = (
+    "idle_1", "idle_2", "walk_1", "walk_2", "walk_3", "walk_4",
+    "attack_1", "attack_2", "attack_3", "attack_4", "impact", "break",
+)
+SPRITES_DIR = Path(__file__).resolve().parents[1] / "assets" / "viking"
+SPRITE_SCALE = 40 / 48  # 48 px lógicos renderizados em 40 px no SVG.
 MONTHS = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 QUERY = """
 query($login: String!) {
@@ -144,7 +151,7 @@ def time_anim(attr: str, states: list[tuple[float, str]], total: float, *, trans
     )
 
 
-def choose_targets(weeks: list[list[dict]], limit: int = 16) -> list[tuple[int, int]]:
+def choose_targets(weeks: list[list[dict]], limit: int = 10) -> list[tuple[int, int]]:
     """Select non-empty contributions, spaced through a serpentine row traversal."""
     filled = []
     for r in range(7):
@@ -159,7 +166,7 @@ def choose_targets(weeks: list[list[dict]], limit: int = 16) -> list[tuple[int, 
 
 
 def geometry(weeks: list[list[dict]], targets: list[tuple[int, int]]):
-    """Waypoints keep the warrior near the contribution cell he's attacking."""
+    """Percurso em zigue-zague com pivô no centro dos 40 px do personagem."""
     if not targets:
         return [], 8.0, [], []
     points = []
@@ -167,76 +174,123 @@ def geometry(weeks: list[list[dict]], targets: list[tuple[int, int]]):
     facing = []
     t = 0.0
     start_col, start_r = targets[0]
-    initial_x = max(LEFT - 22, LEFT + STEP * start_col - 48)
-    initial_y = TOP + STEP * start_r - 7
+    first_x = LEFT + STEP * start_col
+    initial_x = max(LEFT - 14, first_x - 54)
+    initial_y = TOP + STEP * start_r - 29
     points.append((0.0, initial_x, initial_y))
     last_x, last_y = initial_x, initial_y
     last_face = 1
     facing.append((0.0, "1 1"))
     for col, r in targets:
-        cx = LEFT + STEP * col
-        cy = TOP + STEP * r
-        direction = 1 if cx >= (last_x + 22 if last_face == 1 else last_x - 22) else -1
-        x = cx - 22 if direction == 1 else cx + 22
-        y = cy - 7
+        cx, cy = LEFT + STEP * col + CELL / 2, TOP + STEP * r + CELL / 2
+        direction = 1 if cx >= last_x else -1
+        # A lâmina chega ao centro da célula, e o corpo para ao lado do alvo.
+        x = cx - direction * 18
+        y = cy - 34
         if last_face != direction:
-            # Face changes are discrete; the character's next movement remains continuous.
             facing.append((max(0.0, t + 0.001), f"{direction} 1"))
-        travel = max(0.65, min(2.25, math.hypot(x - last_x, y - last_y) / 150))
+        travel = max(0.5, min(3.7, math.hypot(x-last_x, y-last_y) / 155))
         t += travel
         points.append((t, x, y))
-        # Short pause, axe swing, particles, then return to walking.
-        attacks.append((t + 0.28, col, r))
-        t += 0.93
+        attacks.append((t + 0.30, col, r))
+        t += 0.96
         points.append((t, x, y))
         last_x, last_y, last_face = x, y, direction
-    t += 0.6
-    points.append((t, last_x + 27 * last_face, last_y))
-    total = t + 0.8
+    t += 0.7
+    points.append((t, last_x + 30 * last_face, last_y))
+    total = t + 0.65
     points.append((total, initial_x, initial_y))
     return points, total, attacks, facing
 
 
-def sprite() -> str:
-    """Temporary 24x26 pixel-art silhouette. Replace only this function for final art."""
-    return '''<g id="viking-sprite" shape-rendering="crispEdges">
-      <!-- blue cloak, boots, leather armor, horned helmet, beard, shield -->
-      <g id="cloak">
-        <rect x="3" y="8" width="6" height="15" fill="#164d82"/>
-        <rect x="1" y="14" width="5" height="8" fill="#256fa8"/>
-        <animateTransform attributeName="transform" type="translate" values="0 0;1 0;0 0" dur="0.65s" repeatCount="indefinite"/>
-      </g>
-      <g id="boots">
-        <rect x="8" y="20" width="5" height="5" fill="#603e2a"/>
-        <rect x="15" y="20" width="5" height="5" fill="#603e2a"/>
-        <rect x="7" y="24" width="7" height="3" fill="#879db1"/>
-        <rect x="15" y="24" width="7" height="3" fill="#879db1"/>
-        <animateTransform attributeName="transform" type="translate" values="0 0;0 1;0 0" dur="0.52s" repeatCount="indefinite"/>
-      </g>
-      <rect x="7" y="10" width="13" height="12" fill="#52687e"/>
-      <rect x="8" y="17" width="12" height="4" fill="#805339"/>
-      <rect x="7" y="10" width="14" height="3" fill="#c7dce7"/>
-      <rect x="11" y="3" width="9" height="9" fill="#d3a477"/>
-      <rect x="12" y="9" width="8" height="8" fill="#89502d"/>
-      <rect x="16" y="7" width="2" height="2" fill="#172231"/>
-      <rect x="10" y="3" width="12" height="4" fill="#4786b5"/>
-      <rect x="9" y="0" width="3" height="5" fill="#e6d8b7"/>
-      <rect x="20" y="0" width="3" height="5" fill="#e6d8b7"/>
-      <rect x="15" y="2" width="3" height="5" fill="#84c6e5"/>
-      <rect x="6" y="12" width="6" height="9" rx="1" fill="#9ab8c9"/>
-      <rect x="7" y="14" width="4" height="5" fill="#34618b"/>
-      <rect x="8" y="15" width="2" height="3" fill="#65b7e6"/>
-      <g id="axe" transform="rotate(0 20 12)">
-        <rect x="20" y="5" width="2" height="13" fill="#95623e"/>
-        <rect x="18" y="2" width="9" height="7" fill="#a9d6e6"/>
-        <rect x="24" y="1" width="6" height="9" fill="#4c9dc8"/>
-        <rect x="27" y="3" width="3" height="5" fill="#a7e6ef"/>
-        <!-- AXE_ANIMATION -->
-      </g>
-    </g>'''
+def image_defs() -> list[str]:
+    """Embute os PNGs no SVG: o README não depende de imagens externas."""
+    lines = ["<defs>"]
+    for name in SPRITE_FILES:
+        sprite_path = SPRITES_DIR / (name + ".png")
+        raw = sprite_path.read_bytes()
+        if not raw.startswith(b"\x89PNG\r\n\x1a\n"):
+            raise ValueError(f"Sprite PNG inválido: {sprite_path}")
+        width = int.from_bytes(raw[16:20], "big")
+        height = int.from_bytes(raw[20:24], "big")
+        if (width, height) != (48, 48):
+            raise ValueError(f"Dimensão do sprite inválida ({width}x{height}): {sprite_path}")
+        data = base64.b64encode(raw).decode("ascii")
+        lines.append(
+            f'<image id="frame-{name}" x="0" y="0" width="48" height="48" '
+            f'href="data:image/png;base64,{data}" style="image-rendering:pixelated"/>'
+        )
+    lines.append("</defs>")
+    return lines
 
 
-def make_svg(weeks: list[list[dict]], username: str = USERNAME) -> str:
+def build_frame_schedule(points: list[tuple[float, float, float]],
+                         attacks: list[tuple[float, int, int]], total: float):
+    """Timeline exclusiva: exatamente uma pose do viking visível por vez."""
+    result = []
+
+    def push(start: float, end: float, name: str):
+        if end > start + 0.00001:
+            result.append((start, end, name))
+
+    def walk(start: float, end: float):
+        tick = 0
+        while start < end - 0.00001:
+            nxt = min(end, start + 0.12)
+            push(start, nxt, f"walk_{1+tick % 4}")
+            tick += 1
+            start = nxt
+
+    previous = 0.0
+    for idx, (hit, _, _) in enumerate(attacks):
+        arrived = points[1 + 2*idx][0]
+        resume = points[2 + 2*idx][0]
+        walk(previous, arrived)
+        push(arrived, hit - 0.23, "idle_1")
+        push(hit - 0.23, hit - 0.14, "attack_1")
+        push(hit - 0.14, hit - 0.045, "attack_2")
+        push(hit - 0.045, hit + 0.09, "attack_3")
+        push(hit + 0.09, hit + 0.24, "attack_4")
+        push(hit + 0.24, resume, "idle_2")
+        previous = resume
+    walk(previous, points[-2][0])
+    push(points[-2][0], total, "idle_1")
+    if not result:
+        push(0.0, total, "idle_1")
+    return result
+
+
+def frame_animations(schedule, total: float) -> list[str]:
+    """Troca imagens com SMIL discreto: sem JS, sem flicker e sem sprites externos."""
+    names = SPRITE_FILES[:10]
+    states = {name: [(0.0, "1" if schedule[0][2] == name else "0")] for name in names}
+    for (_, _, current), (start, _, nxt) in zip(schedule, schedule[1:]):
+        if current != nxt:
+            states[current].append((start, "0"))
+            states[nxt].append((start, "1"))
+    result = []
+    for name in names:
+        # Frame volta ao estado inicial na virada do loop.
+        states[name].append((total, states[name][0][1]))
+        result.append(f'<use href="#frame-{name}" opacity="{states[name][0][1]}">')
+        result.append(time_anim("opacity", states[name], total, calcMode="discrete"))
+        result.append('</use>')
+    return result
+
+
+def effect_animation(name: str, cx: float, cy: float,
+                     begin: float, end: float, total: float, scale: float) -> list[str]:
+    size = 48 * scale
+    return [
+        f'<g transform="translate({cx-size/2:.2f} {cy-size/2:.2f}) scale({scale:.4f})">',
+        f'<use href="#frame-{name}" opacity="0">',
+        time_anim("opacity", [(0,"0"),(begin,"1"),(end,"0"),(total,"0")],
+                  total,calcMode="discrete"),
+        '</use></g>',
+    ]
+
+
+def make_svg(weeks: list[list[dict]], username: str = USERNAME, *, demo: bool = False) -> str:
     if not weeks or not all(isinstance(w, list) for w in weeks):
         raise ValueError("Calendário de contribuições inválido.")
     width = LEFT + STEP * len(weeks) + 18
@@ -245,10 +299,15 @@ def make_svg(weeks: list[list[dict]], username: str = USERNAME) -> str:
     points, total, attacks, facing = geometry(weeks, targets)
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" aria-label="Viking pixel art percorrendo o gráfico de contribuições de {escape(username)}">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" aria-label="Viking pixel art percorrendo o gráfico de contribuições de {escape(username)}">',
+    ]
+    lines.extend(image_defs())
+    lines.extend([
         f'<rect width="100%" height="100%" rx="10" fill="{DARK}"/>',
         f'<text x="{LEFT}" y="16" font-size="10" font-family="Arial, sans-serif" fill="#8b949e">Contribuições de {escape(username)}</text>',
-    ]
+    ])
+    if demo:
+        lines.append(f'<text x="{width-10}" y="16" font-size="9" text-anchor="end" font-family="Arial, sans-serif" fill="#e3bb65">PRÉVIA DEMONSTRATIVA</text>')
     for r, label in ((1, "seg"), (3, "qua"), (5, "sex")):
         lines.append(f'<text x="6" y="{TOP + STEP*r + 9}" font-size="9" fill="#8b949e" font-family="Arial, sans-serif">{label}</text>')
     last_month = None
@@ -257,7 +316,7 @@ def make_svg(weeks: list[list[dict]], username: str = USERNAME) -> str:
             continue
         first_date = date.fromisoformat(days[-1]["date"])
         if col == 0 or first_date.month != last_month:
-            lines.append(f'<text x="{LEFT+STEP*col}" y="{TOP-9}" font-size="9" fill="#8b949e" font-family="Arial, sans-serif">{MONTHS[first_date.month-1]}</text>')
+            lines.append(f'<text x="{LEFT+STEP*col}" y="{TOP-27}" font-size="9" fill="#8b949e" font-family="Arial, sans-serif">{MONTHS[first_date.month-1]}</text>')
         last_month = first_date.month
         for row, day in enumerate(days):
             color = LEVELS.get(day.get("contributionLevel"), EMPTY)
@@ -269,30 +328,31 @@ def make_svg(weeks: list[list[dict]], username: str = USERNAME) -> str:
                 if hit is not None:
                     lines.append(time_anim("opacity", [(0,"1"), (hit,"1"), (hit+0.16,"0"), (total-0.15,"0"), (total,"1")],total))
                 lines.append('</rect>')
-    # Display attack particles at the selected target cells.
+    # Efeitos separados: faísca, pedaços do bloco e partículas pixeladas.
     for hit, col, row in attacks:
-        cx = LEFT+STEP*col + 5
-        cy = TOP+STEP*row + 5
-        lines.append(f'<g transform="translate({cx} {cy})">')
-        for dx, dy, color in ((-8,-5,"#82cfff"),(7,-6,"#f4d56d"),(-5,7,"#65b7e6"),(8,6,"#d9f1ff")):
-            lines.append(f'<rect x="-1" y="-1" width="3" height="3" fill="{color}">')
-            lines.append(time_anim("opacity", [(0,"0"),(hit,"0"),(hit+0.08,"1"),(hit+0.37,"0"),(total,"0")],total))
-            lines.append(time_anim("transform", [(0,"0 0"),(hit,"0 0"),(hit+0.35,f"{dx} {dy}"),(total,"0 0")],total,transform=True,type="translate"))
+        cx = LEFT+STEP*col + CELL/2
+        cy = TOP+STEP*row + CELL/2
+        lines.extend(effect_animation("impact",cx,cy,hit-0.045,hit+0.12,total,0.60))
+        lines.extend(effect_animation("break",cx,cy,hit+0.12,hit+0.38,total,0.52))
+        lines.append(f'<g transform="translate({cx:.2f} {cy:.2f})">')
+        for dx, dy, color in ((-7,-5,"#82cfff"),(6,-6,"#d9f1ff"),(-5,7,"#65b7e6"),(7,6,"#f4d56d")):
+            lines.append('<rect x="-1" y="-1" width="2" height="2" fill="%s">' % color)
+            lines.append(time_anim("opacity", [(0,"0"),(hit+0.09,"0"),(hit+0.12,"1"),(hit+0.35,"0"),(total,"0")],total,calcMode="discrete"))
+            lines.append(time_anim("transform", [(0,"0 0"),(hit+0.09,"0 0"),(hit+0.35,f"{dx} {dy}"),(total,"0 0")],total,transform=True,type="translate"))
             lines.append('</rect>')
         lines.append('</g>')
     if targets:
         coord_states = [(tm, f"{x:.2f} {y:.2f}") for tm,x,y in points]
+        schedule = build_frame_schedule(points,attacks,total)
         lines.append(f'<g id="viking-motion" transform="translate({points[0][1]:.2f} {points[0][2]:.2f})">')
         lines.append(time_anim("transform", coord_states,total,transform=True,type="translate"))
+        lines.append(time_anim("opacity", [(0,"1"),(total-0.4,"1"),(total-0.12,"0"),(total,"1")], total))
         lines.append('<g id="viking-facing">')
         lines.append(time_anim("transform", facing+[(total,facing[0][1])],total,transform=True,type="scale",calcMode="discrete"))
-        axe_states = [(0.0,"0 20 12")]
-        for hit,_,_ in attacks:
-            axe_states.extend(((hit-0.28,"0 20 12"),(hit-0.06,"-45 20 12"),(hit+0.08,"36 20 12"),(hit+0.33,"0 20 12")))
-        axe_states.append((total,"0 20 12"))
-        rendered = sprite().replace("<!-- AXE_ANIMATION -->",time_anim("transform",axe_states,total,transform=True,type="rotate"))
-        lines.append(rendered)
-        lines.extend(['</g>', '</g>'])
+        # O flip lateral é feito em torno do centro do personagem.
+        lines.append(f'<g transform="translate(-20 0) scale({SPRITE_SCALE:.8f})">')
+        lines.extend(frame_animations(schedule,total))
+        lines.extend(['</g>','</g>','</g>'])
     else:
         lines.append('<text x="43" y="146" fill="#8b949e" font-size="10">Sem contribuições públicas no período.</text>')
     lines.append('</svg>')
@@ -309,7 +369,7 @@ def main() -> int:
         weeks = demo_weeks() if args.demo else fetch_weeks(args.username, os.getenv("GITHUB_TOKEN", ""))
         output = Path(args.output)
         output.parent.mkdir(parents=True, exist_ok=True)
-        output.write_text(make_svg(weeks, args.username), encoding="utf-8")
+        output.write_text(make_svg(weeks, args.username, demo=args.demo), encoding="utf-8")
         print(f"SVG gerado: {output} | {len(weeks)} semanas | modo: {'DEMO' if args.demo else 'REAL'}")
     except (RuntimeError, ValueError, OSError) as err:
         print(f"ERRO: {err}", file=sys.stderr)
