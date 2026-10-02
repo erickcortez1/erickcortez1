@@ -29,8 +29,9 @@
 <rect x="1" y="1" width="207" height="140" rx="9" fill="url(#bg)" stroke="#334155"/>
 <path d="M38 19 L52 27 V43 L38 51 L24 43 V27 Z M24 27 L38 35 L52 27 M38 35 V51" stroke="#55b1ff" fill="none" stroke-width="2.3" stroke-linejoin="round"/>
 <text x="16" y="76" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="16" font-weight="600">Engenharia</text>
-<text x="16" y="99" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">Ferramentas e integrações</text>
-<text x="16" y="117" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">com Revit e AVEVA E3D.</text>
+<text x="16" y="95" fill="#b0bfce" font-family="Arial, sans-serif" font-size="11.4">Desenvolvimento de soluções</text>
+<text x="16" y="111" fill="#b0bfce" font-family="Arial, sans-serif" font-size="11.4">técnicas para otimizar projetos</text>
+<text x="16" y="127" fill="#b0bfce" font-family="Arial, sans-serif" font-size="11.4">e processos de engenharia.</text>
 </g>
 <g transform="translate(672 0)">
 <rect x="1" y="1" width="207" height="140" rx="9" fill="url(#bg)" stroke="#334155"/>
