@@ -1,40 +1,33 @@
-<h1 align="center">Erick Cortez</h1>
+<div align="center">
+  <img src="./assets/profile/banner-erick.png" alt="Erick Cortez — Software Developer, Engineering Software e Automation. Paisagem nórdica noturna em pixel art." width="100%" />
+</div>
 
-<h3 align="center">Software Developer • Engineering Software • Automation</h3>
+<br />
 
-<p align="center">Desenvolvendo aplicações, automações e ferramentas voltadas para engenharia e integração de sistemas.</p>
+<div align="center">
+  <img src="./assets/profile/areas-atuacao.svg" alt="Áreas de atuação: desenvolvimento web e desktop, automação, engenharia e integração de sistemas." width="100%" />
+</div>
 
----
+<br />
 
-## Sobre mim
+<div align="center">
+  <img src="./assets/profile/titulo-tecnologias.svg" alt="Tecnologias" width="100%" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,php,python,js,mysql&amp;theme=dark" alt="C#, .NET, PHP, Python, JavaScript e MySQL" />
+</div>
 
-- 🎓 Engenharia de Software
-- 💻 Desenvolvimento de aplicações web e desktop
-- ⚙️ Automação e ferramentas para engenharia
-- 🧩 Integração entre sistemas e processamento de dados
+<br />
 
----
+<div align="center">
+  <img src="./assets/profile/titulo-contribuicoes.svg" alt="Contribuições" width="100%" />
+  <img src="./assets/viking-contributions.svg" alt="Viking arcade percorrendo meu gráfico real de contribuições do GitHub" width="100%" />
+</div>
 
-## Tecnologias
+<br />
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,php,python,js,mysql" alt="C#, .NET, PHP, Python, JavaScript e MySQL" />
-</p>
-
----
-
-## Contribuições
-
-<p align="center">
-  <img src="./assets/viking-contributions.svg"
-       alt="Viking animado percorrendo minhas contribuições"
-       width="100%" />
-</p>
-
----
-
-## Projeto público
-
-- [Sistema UBS](https://github.com/erickcortez1/sistema_ubs) — projeto acadêmico de sistema web.
-
-<!-- Preserve sua seção Contato atual e seu link verdadeiro do LinkedIn. -->
+<div align="center">
+  <img src="./assets/profile/titulo-projetos.svg" alt="Projeto em destaque" width="100%" />
+  <a href="https://github.com/erickcortez1/sistema_ubs">
+    <img src="./assets/profile/projeto-ubs.svg" alt="Abrir Sistema UBS, projeto acadêmico de sistema web" width="100%" />
+  </a>
+</div>
