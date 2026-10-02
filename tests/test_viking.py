@@ -38,22 +38,24 @@ class VikingTests(unittest.TestCase):
             raw = (SPRITES_DIR / f'{name}.png').read_bytes()
             self.assertEqual(raw[:8], b'\x89PNG\r\n\x1a\n')
             self.assertEqual((int.from_bytes(raw[16:20], 'big'),
-                              int.from_bytes(raw[20:24], 'big')), (48,48))
+                              int.from_bytes(raw[20:24], 'big')), (48, 48))
 
-    def test_walk_idle_and_attack_frames_appear_in_schedule(self):
+    def test_walk_idle_attack_and_jump_frames_appear_in_schedule(self):
         weeks = demo_weeks()
-        pts, total, hits, _ = geometry(weeks, choose_targets(weeks))
-        timeline = build_frame_schedule(pts, hits, total)
+        pts, total, hits, _, segments = geometry(weeks, choose_targets(weeks))
+        timeline = build_frame_schedule(segments, total)
         self.assertEqual(timeline[0][0], 0)
         self.assertEqual(timeline[-1][1], total)
-        self.assertEqual({f'attack_{i}' for i in range(1,5)}.issubset(
-            {frame for _,_,frame in timeline}), True)
-        self.assertIn('idle_1', {frame for _,_,frame in timeline})
-        self.assertIn('walk_1', {frame for _,_,frame in timeline})
-        self.assertTrue(all(abs(a[1]-b[0]) < 0.0001 for a,b in zip(timeline,timeline[1:])))
+        self.assertTrue({f'attack_{i}' for i in range(1, 5)}.issubset({frame for _, _, frame in timeline}))
+        self.assertIn('idle_1', {frame for _, _, frame in timeline})
+        self.assertIn('walk_1', {frame for _, _, frame in timeline})
+        self.assertTrue(all(abs(a[1] - b[0]) < 0.0001 for a, b in zip(timeline, timeline[1:])))
+        self.assertTrue(any(seg['type'] == 'jump' for seg in segments))
+        self.assertTrue(pts)
+        self.assertTrue(hits)
 
     def test_demo_cannot_be_mistaken_for_actual_calendar(self):
-        self.assertIn('PRÉVIA DEMONSTRATIVA', make_svg(demo_weeks(),demo=True))
+        self.assertIn('PRÉVIA DEMONSTRATIVA', make_svg(demo_weeks(), demo=True))
         self.assertNotIn('PRÉVIA DEMONSTRATIVA', make_svg(demo_weeks()))
 
     def test_partial_week_aligns_to_sunday(self):
@@ -68,13 +70,17 @@ class VikingTests(unittest.TestCase):
         for c, r in choose_targets(weeks):
             self.assertGreater(weeks[c][r]["contributionCount"], 0)
 
-    def test_events_in_bounds(self):
-        points, total, hits, facing = geometry(demo_weeks(), choose_targets(demo_weeks()))
+    def test_events_in_bounds_and_orthogonal(self):
+        points, total, hits, facing, segments = geometry(demo_weeks(), choose_targets(demo_weeks()))
         self.assertTrue(points)
         self.assertTrue(hits)
         self.assertTrue(facing)
         self.assertTrue(all(0 <= t <= total for t, *_ in points))
         self.assertTrue(all(0 <= t <= total for t, *_ in hits))
+        # Todo segmento entre keyframes deve ser horizontal, vertical ou estático.
+        for (_, x1, y1), (_, x2, y2) in zip(points, points[1:]):
+            self.assertTrue(abs(x1 - x2) < 0.001 or abs(y1 - y2) < 0.001)
+        self.assertTrue(any(seg['type'] == 'jump' for seg in segments))
 
     def test_no_contribution_fallback(self):
         weeks = demo_weeks()
