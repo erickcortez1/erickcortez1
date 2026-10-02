@@ -32,10 +32,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_viking.py --username erickcortez1 --output assets/viking-contributions.svg
+      
       - name: Publicar SVG gerado (somente se houver alteração)
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add assets/viking-contributions.svg
+
           if ! git diff --cached --quiet; then
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: atualizar gráfico viking [skip ci]'
-            git push
+            git commit -m "chore: atualizar gráfico viking [skip ci]"
+
+            git pull --rebase origin main
+
+            git push origin HEAD:main
+          else
+            echo "Nenhuma alteração no SVG."
           fi
+
