@@ -20,11 +20,13 @@
 
 ---
 
+
 ## Tecnologias
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,php,python,js,mysql,postgres,docker,git,github,vscode,visualstudio" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,php,python,js,mysql" />
 </p>
+
 
 ---
 
