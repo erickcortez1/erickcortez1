@@ -1,0 +1,40 @@
+name: Atualizar Viking Contribution Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *' # diariamente, 03:17 UTC
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate_viking.py
+      - tests/test_viking.py
+      - .github/workflows/viking.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Obter o repositório
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Executar testes
+        run: python -m unittest discover -s tests -v
+      - name: Consultar contribuições reais e gerar animação
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_viking.py --username erickcortez1 --output assets/viking-contributions.svg
+      - name: Publicar SVG gerado (somente se houver alteração)
+        run: |
+          git add assets/viking-contributions.svg
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: atualizar gráfico viking [skip ci]'
+            git push
+          fi
