@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="54" viewBox="0 0 880 54" role="img">
+<title>PROJETO EM DESTAQUE</title>
+<path d="M0 38 H335 M349 38 H880" fill="none" stroke="#37485a" stroke-width="1"/>
+<path d="M338 38 l5 -5 5 5 -5 5z" fill="none" stroke="#48a7f1" stroke-width="1.5"/>
+<text x="0" y="25" fill="#4caafb" font-family="monospace" font-size="25" font-weight="bold">//</text>
+<text x="47" y="23" fill="#dce9f9" font-family="monospace" font-size="17" font-weight="700" letter-spacing="2">PROJETO EM DESTAQUE</text>
+</svg>

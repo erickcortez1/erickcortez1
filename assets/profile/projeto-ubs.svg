@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="125" viewBox="0 0 880 125" role="img" aria-labelledby="ptitle">
+<title id="ptitle">Sistema UBS — projeto acadêmico web. Abrir o repositório.</title>
+<defs>
+ <linearGradient id="cardbg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#111c2b"/><stop offset="1" stop-color="#0b1320"/></linearGradient>
+ <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0a1423"/><stop offset="1" stop-color="#122c47"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="878" height="123" rx="9" fill="url(#cardbg)" stroke="#35485b"/>
+<rect x="16" y="20" width="73" height="78" rx="9" fill="#152438" stroke="#324960"/>
+<path d="M32 46 L52 37 L72 46 L52 55 Z M37 53 V64 Q52 74 67 64 V53 M72 47 V67" fill="none" stroke="#56afff" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="111" y="45" font-size="22" fill="#5eb9ff" font-weight="600" font-family="Arial,sans-serif">Sistema UBS</text>
+<rect x="266" y="25" width="66" height="25" rx="12" fill="#1d2b3a" stroke="#4a6079"/>
+<text x="299" y="42" font-size="12" text-anchor="middle" fill="#d3e1ee" font-family="Arial,sans-serif">Público</text>
+<text x="112" y="72" fill="#bfccdd" font-size="15" font-family="Arial,sans-serif">Projeto acadêmico de sistema web.</text>
+<circle cx="119" cy="94" r="5" fill="#e34c26"/><text x="132" y="99" font-family="Arial,sans-serif" font-size="12.5" fill="#d3e1ee">HTML</text>
+<g opacity="0.40" transform="translate(590 17)">
+ <rect x="0" y="0" width="265" height="91" rx="6" fill="url(#fade)" stroke="#5680a0"/>
+ <rect x="9" y="12" width="58" height="66" rx="3" fill="#142e4b"/>
+ <path d="M19 26 H53 M19 39 H43 M19 52 H53" stroke="#489ad9" stroke-width="3" stroke-linecap="round"/>
+ <rect x="77" y="13" width="80" height="30" rx="4" fill="#264b6b"/>
+ <rect x="164" y="13" width="88" height="30" rx="4" fill="#1a3e5e"/>
+ <rect x="77" y="51" width="175" height="26" rx="4" fill="#1c3c58"/>
+ <path d="M88 69 L110 63 L126 66 L150 58 L172 61 L195 54 L232 57" fill="none" stroke="#6ab9e9" stroke-width="2"/>
+</g>
+<text x="850" y="108" text-anchor="end" font-size="12" fill="#7fc8ff" font-family="Arial,sans-serif">ABRIR REPOSITÓRIO ↗</text>
+</svg>

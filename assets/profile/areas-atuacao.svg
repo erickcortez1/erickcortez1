@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="145" viewBox="0 0 880 145" role="img" aria-labelledby="title">
+<title id="title">Áreas de atuação: desenvolvimento, automação, engenharia e integração</title>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#111a27"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+</defs>
+<g transform="translate(0 0)">
+<rect x="1" y="1" width="207" height="140" rx="9" fill="url(#bg)" stroke="#334155"/>
+<path d="M32 25 L23 34 L32 43 M46 25 L55 34 L46 43 M42 21 L35 46" stroke="#55b1ff" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="16" y="76" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="16" font-weight="600">Desenvolvimento</text>
+<text x="16" y="99" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">Aplicações web e desktop</text>
+<text x="16" y="117" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">para problemas reais.</text>
+</g>
+<g transform="translate(224 0)">
+<rect x="1" y="1" width="207" height="140" rx="9" fill="url(#bg)" stroke="#334155"/>
+<circle cx="39" cy="34" r="9" stroke="#55b1ff" fill="none" stroke-width="2.6"/><circle cx="39" cy="34" r="3" stroke="#55b1ff" fill="none" stroke-width="2.2"/>
+<path d="M39 19 L39 23" stroke="#55b1ff" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M39 45 L39 49" stroke="#55b1ff" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M24 34 L28 34" stroke="#55b1ff" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M50 34 L54 34" stroke="#55b1ff" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M28 23 L31 26" stroke="#55b1ff" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M47 42 L50 45" stroke="#55b1ff" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M28 45 L31 42" stroke="#55b1ff" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M47 26 L50 23" stroke="#55b1ff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="16" y="76" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="16" font-weight="600">Automação</text>
+<text x="16" y="99" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">Processamento de dados</text>
+<text x="16" y="117" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">e rotinas técnicas.</text>
+</g>
+<g transform="translate(448 0)">
+<rect x="1" y="1" width="207" height="140" rx="9" fill="url(#bg)" stroke="#334155"/>
+<path d="M38 19 L52 27 V43 L38 51 L24 43 V27 Z M24 27 L38 35 L52 27 M38 35 V51" stroke="#55b1ff" fill="none" stroke-width="2.3" stroke-linejoin="round"/>
+<text x="16" y="76" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="16" font-weight="600">Engenharia</text>
+<text x="16" y="99" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">Ferramentas e integrações</text>
+<text x="16" y="117" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">com Revit e AVEVA E3D.</text>
+</g>
+<g transform="translate(672 0)">
+<rect x="1" y="1" width="207" height="140" rx="9" fill="url(#bg)" stroke="#334155"/>
+<ellipse cx="39" cy="23" rx="13" ry="6" fill="none" stroke="#55b1ff" stroke-width="2.3"/><path d="M26 23 V43 Q39 54 52 43 V23 M26 33 Q39 44 52 33" fill="none" stroke="#55b1ff" stroke-width="2.3"/>
+<text x="16" y="76" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="16" font-weight="600">Integração</text>
+<text x="16" y="99" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">Conexão entre sistemas</text>
+<text x="16" y="117" fill="#b0bfce" font-family="Arial, sans-serif" font-size="12.3">e transformação de dados.</text>
+</g>
+</svg>
