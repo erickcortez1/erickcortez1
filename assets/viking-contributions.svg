@@ -88,7 +88,7 @@
 </rect>
 <rect x="147" y="143" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="147" y="143" width="10" height="10" rx="1.8" fill="#0e4429">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.943466;0.950726;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.942936;0.950264;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="160" y="65" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="160" y="78" width="10" height="10" rx="1.8" fill="#161b22"/>
@@ -257,22 +257,21 @@
 <rect x="433" y="117" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="433" y="130" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="433" y="130" width="10" height="10" rx="1.8" fill="#39d353">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.817318;0.824578;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.815605;0.822934;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="433" y="143" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="446" y="65" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="446" y="78" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="446" y="78" width="10" height="10" rx="1.8" fill="#0e4429">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.139761;0.147021;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.141071;0.148400;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="446" y="91" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="446" y="91" width="10" height="10" rx="1.8" fill="#0e4429">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.193306;0.200566;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
 </rect>
 <rect x="446" y="104" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="446" y="117" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="446" y="117" width="10" height="10" rx="1.8" fill="#0e4429">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.445601;0.452861;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.462604;0.469932;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="446" y="130" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="446" y="130" width="10" height="10" rx="1.8" fill="#39d353">
@@ -360,7 +359,6 @@
 <rect x="589" y="117" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="589" y="130" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="589" y="130" width="10" height="10" rx="1.8" fill="#0e4429">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.708413;0.715674;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
 </rect>
 <rect x="589" y="143" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="602" y="65" width="10" height="10" rx="1.8" fill="#161b22"/>
@@ -379,6 +377,7 @@
 </rect>
 <rect x="615" y="130" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="615" y="130" width="10" height="10" rx="1.8" fill="#26a641">
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.705679;0.713008;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="615" y="143" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="628" y="65" width="10" height="10" rx="1.8" fill="#161b22"/>
@@ -411,7 +410,6 @@
 <rect x="667" y="104" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="667" y="117" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="667" y="117" width="10" height="10" rx="1.8" fill="#0e4429">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.554506;0.561766;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
 </rect>
 <rect x="667" y="130" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="667" y="143" width="10" height="10" rx="1.8" fill="#161b22"/>
@@ -428,10 +426,11 @@
 <rect x="693" y="91" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="693" y="104" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="693" y="104" width="10" height="10" rx="1.8" fill="#0e4429">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.319453;0.326714;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.335273;0.342602;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="693" y="117" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="693" y="117" width="10" height="10" rx="1.8" fill="#39d353">
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.572529;0.579858;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="693" y="130" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="693" y="130" width="10" height="10" rx="1.8" fill="#39d353">
@@ -440,10 +439,11 @@
 <rect x="706" y="65" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="706" y="78" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="706" y="78" width="10" height="10" rx="1.8" fill="#0e4429">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.030856;0.038117;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.031146;0.038474;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="706" y="91" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="706" y="91" width="10" height="10" rx="1.8" fill="#006d32">
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.268402;0.275730;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="706" y="104" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="706" y="104" width="10" height="10" rx="1.8" fill="#26a641">
@@ -451,7 +451,7 @@
 <rect x="706" y="117" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="706" y="130" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="706" y="130" width="10" height="10" rx="1.8" fill="#39d353">
-<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.628870;0.636131;0.993193;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity"  values="1;1;0;0;1" keyTimes="0.000000;0.639401;0.646729;0.993130;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="706" y="143" width="10" height="10" rx="1.8" fill="#161b22"/>
 <rect x="719" y="65" width="10" height="10" rx="1.8" fill="#161b22"/>
@@ -462,302 +462,304 @@
 <rect x="719" y="117" width="10" height="10" rx="1.8" fill="#0e4429">
 </rect>
 <rect x="719" y="130" width="10" height="10" rx="1.8" fill="#161b22"/>
+<rect x="719" y="130" width="10" height="10" rx="1.8" fill="#39d353">
+</rect>
 <rect x="719" y="143" width="10" height="10" rx="1.8" fill="#161b22"/>
 <g transform="translate(696.60 68.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.028814;0.036302;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.029084;0.036642;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(698.52 70.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.036302;0.048100;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.036642;0.048550;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(711.00 83.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.034940;0.036302;0.046738;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.034940;0.046738;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.035268;0.036642;0.047176;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.035268;0.047176;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.034940;0.036302;0.046738;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.034940;0.046738;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.035268;0.036642;0.047176;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.035268;0.047176;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.034940;0.036302;0.046738;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.034940;0.046738;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.035268;0.036642;0.047176;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.035268;0.047176;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.034940;0.036302;0.046738;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.034940;0.046738;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.035268;0.036642;0.047176;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.035268;0.047176;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
 <g transform="translate(436.60 68.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.137719;0.145206;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.139010;0.146568;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(438.52 70.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.145206;0.157004;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.146568;0.158476;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(451.00 83.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.143845;0.145206;0.155643;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.143845;0.155643;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.145193;0.146568;0.157102;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.145193;0.157102;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.143845;0.145206;0.155643;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.143845;0.155643;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.145193;0.146568;0.157102;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.145193;0.157102;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.143845;0.145206;0.155643;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.143845;0.155643;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.145193;0.146568;0.157102;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.145193;0.157102;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.143845;0.145206;0.155643;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.143845;0.155643;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.145193;0.146568;0.157102;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.145193;0.157102;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
-<g transform="translate(436.60 81.60) scale(0.6000)">
+<g transform="translate(696.60 81.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.191264;0.198751;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.266341;0.273898;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
-<g transform="translate(438.52 83.52) scale(0.5200)">
+<g transform="translate(698.52 83.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.198751;0.210549;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.273898;0.285807;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
-<g transform="translate(451.00 96.00)">
+<g transform="translate(711.00 96.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.197389;0.198751;0.209187;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.197389;0.209187;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.272524;0.273898;0.284433;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.272524;0.284433;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.197389;0.198751;0.209187;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.197389;0.209187;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.272524;0.273898;0.284433;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.272524;0.284433;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.197389;0.198751;0.209187;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.197389;0.209187;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.272524;0.273898;0.284433;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.272524;0.284433;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.197389;0.198751;0.209187;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.197389;0.209187;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.272524;0.273898;0.284433;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.272524;0.284433;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
 <g transform="translate(683.60 94.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.317411;0.324899;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.333212;0.340769;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(685.52 96.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.324899;0.336697;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.340769;0.352678;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(698.00 109.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.323537;0.324899;0.335335;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.323537;0.335335;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.339395;0.340769;0.351304;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.339395;0.351304;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.323537;0.324899;0.335335;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.323537;0.335335;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.339395;0.340769;0.351304;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.339395;0.351304;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.323537;0.324899;0.335335;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.323537;0.335335;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.339395;0.340769;0.351304;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.339395;0.351304;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.323537;0.324899;0.335335;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.323537;0.335335;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.339395;0.340769;0.351304;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.339395;0.351304;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
 <g transform="translate(436.60 107.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.443559;0.451046;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.460543;0.468100;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(438.52 109.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.451046;0.462844;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.468100;0.480009;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(451.00 122.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.449685;0.451046;0.461483;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.449685;0.461483;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.466726;0.468100;0.478635;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.466726;0.478635;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.449685;0.451046;0.461483;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.449685;0.461483;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.466726;0.468100;0.478635;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.466726;0.478635;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.449685;0.451046;0.461483;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.449685;0.461483;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.466726;0.468100;0.478635;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.466726;0.478635;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.449685;0.451046;0.461483;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.449685;0.461483;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.466726;0.468100;0.478635;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.466726;0.478635;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
-<g transform="translate(657.60 107.60) scale(0.6000)">
+<g transform="translate(683.60 107.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.552464;0.559951;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.570468;0.578026;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
-<g transform="translate(659.52 109.52) scale(0.5200)">
+<g transform="translate(685.52 109.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.559951;0.571749;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.578026;0.589934;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
-<g transform="translate(672.00 122.00)">
+<g transform="translate(698.00 122.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.558590;0.559951;0.570388;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.558590;0.570388;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.576652;0.578026;0.588560;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.576652;0.588560;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.558590;0.559951;0.570388;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.558590;0.570388;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.576652;0.578026;0.588560;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.576652;0.588560;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.558590;0.559951;0.570388;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.558590;0.570388;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.576652;0.578026;0.588560;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.576652;0.588560;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.558590;0.559951;0.570388;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.558590;0.570388;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.576652;0.578026;0.588560;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.576652;0.588560;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
 <g transform="translate(696.60 120.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.626828;0.634316;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.637340;0.644897;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(698.52 122.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.634316;0.646114;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.644897;0.656806;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(711.00 135.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.632954;0.634316;0.644752;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.632954;0.644752;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.643523;0.644897;0.655432;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.643523;0.655432;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.632954;0.634316;0.644752;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.632954;0.644752;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.643523;0.644897;0.655432;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.643523;0.655432;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.632954;0.634316;0.644752;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.632954;0.644752;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.643523;0.644897;0.655432;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.643523;0.655432;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.632954;0.634316;0.644752;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.632954;0.644752;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.643523;0.644897;0.655432;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.643523;0.655432;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
-<g transform="translate(579.60 120.60) scale(0.6000)">
+<g transform="translate(605.60 120.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.706371;0.713859;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.703618;0.711176;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
-<g transform="translate(581.52 122.52) scale(0.5200)">
+<g transform="translate(607.52 122.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.713859;0.725657;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.711176;0.723084;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
-<g transform="translate(594.00 135.00)">
+<g transform="translate(620.00 135.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.712497;0.713859;0.724295;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.712497;0.724295;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.709802;0.711176;0.721710;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.709802;0.721710;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.712497;0.713859;0.724295;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.712497;0.724295;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.709802;0.711176;0.721710;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.709802;0.721710;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.712497;0.713859;0.724295;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.712497;0.724295;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.709802;0.711176;0.721710;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.709802;0.721710;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.712497;0.713859;0.724295;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.712497;0.724295;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.709802;0.711176;0.721710;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.709802;0.721710;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
 <g transform="translate(423.60 120.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.815276;0.822763;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.813544;0.821101;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(425.52 122.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.822763;0.834561;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.821101;0.833010;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(438.00 135.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.821402;0.822763;0.833200;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.821402;0.833200;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.819727;0.821101;0.831636;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.819727;0.831636;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.821402;0.822763;0.833200;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.821402;0.833200;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.819727;0.821101;0.831636;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.819727;0.831636;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.821402;0.822763;0.833200;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.821402;0.833200;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.819727;0.821101;0.831636;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.819727;0.831636;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.821402;0.822763;0.833200;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.821402;0.833200;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.819727;0.821101;0.831636;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.819727;0.831636;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
 <g transform="translate(137.60 133.60) scale(0.6000)">
 <use href="#frame-impact" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.941424;0.948911;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.940875;0.948432;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(139.52 135.52) scale(0.5200)">
 <use href="#frame-break" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.948911;0.960709;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000;0.948432;0.960341;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use></g>
 <g transform="translate(152.00 148.00)">
 <rect x="-1" y="-1" width="2" height="2" fill="#82cfff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.947550;0.948911;0.959348;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.947550;0.959348;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.947058;0.948432;0.958966;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 -5;0 0" keyTimes="0.000000;0.947058;0.958966;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#d9f1ff">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.947550;0.948911;0.959348;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.947550;0.959348;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.947058;0.948432;0.958966;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -6;0 0" keyTimes="0.000000;0.947058;0.958966;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#65b7e6">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.947550;0.948911;0.959348;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.947550;0.959348;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.947058;0.948432;0.958966;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 7;0 0" keyTimes="0.000000;0.947058;0.958966;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 <rect x="-1" y="-1" width="2" height="2" fill="#f4d56d">
-<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.947550;0.948911;0.959348;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.947550;0.959348;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" keyTimes="0.000000;0.947058;0.948432;0.958966;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 6;0 0" keyTimes="0.000000;0.947058;0.958966;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </rect>
 </g>
 <g id="viking-motion" transform="translate(659.00 45.16)">
-<animateTransform attributeName="transform" type="translate" values="659.00 45.16;693.00 45.16;693.00 45.16;469.00 45.16;469.00 45.16;469.00 37.16;469.00 37.16;469.00 58.16;469.00 58.16;469.00 50.16;469.00 50.16;469.00 71.16;680.00 71.16;680.00 71.16;680.00 63.16;680.00 63.16;680.00 84.16;469.00 84.16;469.00 84.16;654.00 84.16;654.00 84.16;654.00 76.16;654.00 76.16;654.00 97.16;693.00 97.16;693.00 97.16;612.00 97.16;612.00 97.16;456.00 97.16;456.00 97.16;456.00 89.16;456.00 89.16;456.00 110.16;170.00 110.16;170.00 110.16;144.00 110.16;144.00 110.16" keyTimes="0.000000;0.018151;0.054452;0.127055;0.163357;0.167895;0.174247;0.180600;0.216902;0.221439;0.227792;0.234145;0.306748;0.343049;0.347587;0.353940;0.360293;0.432896;0.469197;0.541800;0.578102;0.582639;0.588992;0.595345;0.616165;0.652466;0.695708;0.732009;0.804612;0.840914;0.845452;0.851804;0.858157;0.930760;0.967062;0.980942;1.000000" dur="22.04s" repeatCount="indefinite"/>
-<animate attributeName="opacity"  values="1;1;0;1" keyTimes="0.000000;0.987294;0.996370;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="659.00 45.16;693.00 45.16;693.00 45.16;469.00 45.16;469.00 45.16;469.00 37.16;469.00 37.16;469.00 58.16;693.00 58.16;693.00 58.16;693.00 50.16;693.00 50.16;693.00 71.16;680.00 71.16;680.00 71.16;680.00 63.16;680.00 63.16;680.00 84.16;469.00 84.16;469.00 84.16;680.00 84.16;680.00 84.16;680.00 76.16;680.00 76.16;680.00 97.16;693.00 97.16;693.00 97.16;638.00 97.16;638.00 97.16;456.00 97.16;456.00 97.16;456.00 89.16;456.00 89.16;456.00 110.16;170.00 110.16;170.00 110.16;144.00 110.16;144.00 110.16" keyTimes="0.000000;0.018321;0.054963;0.128247;0.164888;0.169469;0.175881;0.182293;0.255577;0.292219;0.296799;0.303212;0.309624;0.322449;0.359090;0.363671;0.370083;0.376495;0.449779;0.486421;0.559705;0.596347;0.600927;0.607339;0.613751;0.626576;0.663218;0.692855;0.729497;0.802780;0.839422;0.844003;0.850415;0.856827;0.930111;0.966753;0.980763;1.000000" dur="21.83s" repeatCount="indefinite"/>
+<animate attributeName="opacity"  values="1;1;0;1" keyTimes="0.000000;0.987175;0.996336;1.000000" dur="21.83s" repeatCount="indefinite"/>
 <g id="viking-facing">
-<animateTransform attributeName="transform" type="scale" calcMode="discrete" values="1 1;-1 1;1 1;-1 1;1 1;-1 1;1 1" keyTimes="0.000000;0.054498;0.234190;0.360338;0.469242;0.652512;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="scale" calcMode="discrete" values="1 1;-1 1;1 1;-1 1;1 1;-1 1;1 1" keyTimes="0.000000;0.055009;0.182339;0.309670;0.486467;0.663264;1.000000" dur="21.83s" repeatCount="indefinite"/>
 <g transform="translate(-22.00 -6.16) scale(0.91666667)">
 <use href="#frame-idle_1" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0" keyTimes="0.000000;0.163357;0.166461;0.171634;0.176807;0.216902;0.220005;0.225178;0.230351;0.343049;0.346153;0.351326;0.356499;0.578102;0.581205;0.586378;0.591551;0.840914;0.844018;0.849191;0.854364;0.980942;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0" keyTimes="0.000000;0.164888;0.168021;0.173243;0.178464;0.292219;0.295352;0.300573;0.305795;0.359090;0.362223;0.367445;0.372666;0.596347;0.599479;0.604701;0.609922;0.839422;0.842555;0.847777;0.852998;0.980763;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-idle_2" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.166461;0.171634;0.220005;0.225178;0.346153;0.351326;0.581205;0.586378;0.844018;0.849191;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.168021;0.173243;0.295352;0.300573;0.362223;0.367445;0.599479;0.604701;0.842555;0.847777;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-walk_1" opacity="1">
-<animate attributeName="opacity" calcMode="discrete" values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1" keyTimes="0.000000;0.004991;0.054452;0.059444;0.074418;0.079410;0.094384;0.099375;0.114350;0.119341;0.176807;0.180600;0.230351;0.239136;0.254111;0.259102;0.274076;0.279068;0.294042;0.299034;0.356499;0.365284;0.380258;0.385250;0.400224;0.405216;0.420190;0.425182;0.469197;0.474189;0.489163;0.494154;0.509129;0.514120;0.529095;0.534086;0.591551;0.600336;0.615311;0.616165;0.652466;0.657458;0.672432;0.677424;0.692398;0.695708;0.732009;0.737001;0.751975;0.756967;0.771941;0.776933;0.791907;0.796898;0.854364;0.863149;0.878123;0.883114;0.898089;0.903080;0.918055;0.923046;0.967062;0.972053;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1" keyTimes="0.000000;0.005038;0.054963;0.060001;0.075116;0.080154;0.095269;0.100307;0.115422;0.120460;0.178464;0.187332;0.202446;0.207485;0.222599;0.227638;0.242752;0.247791;0.305795;0.314662;0.372666;0.381534;0.396648;0.401687;0.416801;0.421840;0.436954;0.441993;0.486421;0.491459;0.506574;0.511612;0.526727;0.531765;0.546880;0.551918;0.609922;0.618790;0.663218;0.668256;0.683371;0.688409;0.729497;0.734535;0.749650;0.754688;0.769803;0.774841;0.789956;0.794994;0.852998;0.861866;0.876980;0.882019;0.897133;0.902172;0.917286;0.922325;0.966753;0.971791;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-walk_2" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.004991;0.009983;0.059444;0.064435;0.079410;0.084401;0.099375;0.104367;0.119341;0.124333;0.239136;0.244128;0.259102;0.264094;0.279068;0.284059;0.299034;0.304025;0.365284;0.370275;0.385250;0.390241;0.405216;0.410207;0.425182;0.430173;0.474189;0.479180;0.494154;0.499146;0.514120;0.519112;0.534086;0.539078;0.600336;0.605328;0.657458;0.662449;0.677424;0.682415;0.737001;0.741992;0.756967;0.761958;0.776933;0.781924;0.796898;0.801890;0.863149;0.868140;0.883114;0.888106;0.903080;0.908072;0.923046;0.928038;0.972053;0.977045;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.005038;0.010077;0.060001;0.065039;0.080154;0.085192;0.100307;0.105345;0.120460;0.125498;0.187332;0.192370;0.207485;0.212523;0.227638;0.232676;0.247791;0.252829;0.314662;0.319700;0.381534;0.386572;0.401687;0.406725;0.421840;0.426878;0.441993;0.447031;0.491459;0.496497;0.511612;0.516651;0.531765;0.536804;0.551918;0.556957;0.618790;0.623828;0.668256;0.673295;0.688409;0.692855;0.734535;0.739573;0.754688;0.759726;0.774841;0.779879;0.794994;0.800032;0.861866;0.866904;0.882019;0.887057;0.902172;0.907210;0.922325;0.927363;0.971791;0.976829;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-walk_3" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.009983;0.014974;0.064435;0.069427;0.084401;0.089392;0.104367;0.109358;0.124333;0.127055;0.244128;0.249119;0.264094;0.269085;0.284059;0.289051;0.304025;0.306748;0.370275;0.375267;0.390241;0.395233;0.410207;0.415199;0.430173;0.432896;0.479180;0.484171;0.499146;0.504137;0.519112;0.524103;0.539078;0.541800;0.605328;0.610319;0.662449;0.667441;0.682415;0.687407;0.741992;0.746984;0.761958;0.766950;0.781924;0.786915;0.801890;0.804612;0.868140;0.873132;0.888106;0.893097;0.908072;0.913063;0.928038;0.930760;0.977045;0.980942;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.010077;0.015115;0.065039;0.070078;0.085192;0.090231;0.105345;0.110384;0.125498;0.128247;0.192370;0.197408;0.212523;0.217561;0.232676;0.237714;0.252829;0.255577;0.319700;0.322449;0.386572;0.391610;0.406725;0.411763;0.426878;0.431916;0.447031;0.449779;0.496497;0.501536;0.516651;0.521689;0.536804;0.541842;0.556957;0.559705;0.623828;0.626576;0.673295;0.678333;0.739573;0.744611;0.759726;0.764765;0.779879;0.784918;0.800032;0.802780;0.866904;0.871942;0.887057;0.892095;0.907210;0.912248;0.927363;0.930111;0.976829;0.980763;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-walk_4" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.014974;0.018151;0.069427;0.074418;0.089392;0.094384;0.109358;0.114350;0.249119;0.254111;0.269085;0.274076;0.289051;0.294042;0.375267;0.380258;0.395233;0.400224;0.415199;0.420190;0.484171;0.489163;0.504137;0.509129;0.524103;0.529095;0.610319;0.615311;0.667441;0.672432;0.687407;0.692398;0.746984;0.751975;0.766950;0.771941;0.786915;0.791907;0.873132;0.878123;0.893097;0.898089;0.913063;0.918055;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.015115;0.018321;0.070078;0.075116;0.090231;0.095269;0.110384;0.115422;0.197408;0.202446;0.217561;0.222599;0.237714;0.242752;0.391610;0.396648;0.411763;0.416801;0.431916;0.436954;0.501536;0.506574;0.521689;0.526727;0.541842;0.546880;0.678333;0.683371;0.744611;0.749650;0.764765;0.769803;0.784918;0.789956;0.871942;0.876980;0.892095;0.897133;0.912248;0.917286;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-attack_1" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.018151;0.022688;0.127055;0.131593;0.180600;0.185138;0.306748;0.311286;0.432896;0.437433;0.541800;0.546338;0.616165;0.620703;0.695708;0.700246;0.804612;0.809150;0.930760;0.935298;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.018321;0.022901;0.128247;0.132827;0.255577;0.260157;0.322449;0.327029;0.449779;0.454359;0.559705;0.564285;0.626576;0.631156;0.692855;0.697435;0.802780;0.807361;0.930111;0.934691;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-attack_2" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.022688;0.027680;0.131593;0.136584;0.185138;0.190129;0.311286;0.316277;0.437433;0.442425;0.546338;0.551329;0.620703;0.625694;0.700246;0.705237;0.809150;0.814142;0.935298;0.940289;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.022901;0.027939;0.132827;0.137865;0.260157;0.265196;0.327029;0.332067;0.454359;0.459398;0.564285;0.569323;0.631156;0.636195;0.697435;0.702473;0.807361;0.812399;0.934691;0.939729;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-attack_3" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.027680;0.034033;0.136584;0.142937;0.190129;0.196482;0.316277;0.322630;0.442425;0.448777;0.551329;0.557682;0.625694;0.632047;0.705237;0.711590;0.814142;0.820494;0.940289;0.946642;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.027939;0.034352;0.137865;0.144277;0.265196;0.271608;0.332067;0.338479;0.459398;0.465810;0.569323;0.575736;0.636195;0.642607;0.702473;0.708886;0.812399;0.818811;0.939729;0.946142;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 <use href="#frame-attack_4" opacity="0">
-<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.034033;0.054452;0.142937;0.163357;0.196482;0.216902;0.322630;0.343049;0.448777;0.469197;0.557682;0.578102;0.632047;0.652466;0.711590;0.732009;0.820494;0.840914;0.946642;0.967062;1.000000" dur="22.04s" repeatCount="indefinite"/>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000;0.034352;0.054963;0.144277;0.164888;0.271608;0.292219;0.338479;0.359090;0.465810;0.486421;0.575736;0.596347;0.642607;0.663218;0.708886;0.729497;0.818811;0.839422;0.946142;0.966753;1.000000" dur="21.83s" repeatCount="indefinite"/>
 </use>
 </g>
 </g>
